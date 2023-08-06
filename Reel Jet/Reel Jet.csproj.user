@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Utilities\CustomPasswordBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Utilities\SearchBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Utilities\BindableTextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MoviePages\VideoPlayerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MoviePages\VideoPlayerPages\FullScreenPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MoviePages\VideoPlayerPages\MinimizeScreenPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NavigationBarPages\SettingsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NavigationBarPages\SettingsPages\AccountPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\NavigationBarPages\UserAccountPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RegistrationPages\SignUpPages\MainSignUpPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RegistrationPages\SignUpPages\RegistrationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RegistrationPages\SignUpPages\ValidationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ResourceDictionaries\ButtonWithBookmarkRD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResourceDictionaries\CustomToolTipRD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\CustomPasswordBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\SearchBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\BindableTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MoviePages\VideoPlayerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MoviePages\VideoPlayerPages\FullScreenPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MoviePages\VideoPlayerPages\MinimizeScreenPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NavigationBarPages\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NavigationBarPages\SettingsPages\AccountPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\NavigationBarPages\UserAccountPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RegistrationPages\SignUpPages\MainSignUpPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RegistrationPages\SignUpPages\RegistrationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RegistrationPages\SignUpPages\ValidationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
